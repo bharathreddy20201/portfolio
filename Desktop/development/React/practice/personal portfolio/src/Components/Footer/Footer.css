@@ -1,0 +1,40 @@
+.footer{
+    display: flex;
+    align-items: center;
+   
+    position: relative;
+}
+.image{
+    width: 130%;
+    position: relative;
+    left: -10rem;
+}
+.f-content{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+    gap: 4rem;
+    color: rgb(171, 9, 9);
+}
+.f-content > span {
+    font-size: 30px;
+}
+.f-icons{
+    display: flex;
+    gap: 2rem;
+}
+@media screen and (max-width: 600px){
+    .f-content{
+      transform: scale(.5);
+    }
+    .image{
+        width: 130%;
+        position: relative;
+        left: -3rem;
+    }
+  }
+  
